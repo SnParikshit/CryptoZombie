@@ -28,7 +28,7 @@ contract ZombieHelper is ZombieFeeding {
       if(zombieToOwner[i] == _owner)
       {
         result[counter] = i;
-        counter++
+        counter++;
       }
     }
     return result;
